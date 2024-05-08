@@ -25198,11 +25198,11 @@ h3.sectionname .inplaceeditable.inplaceeditingon .editinstructions {
 }
 
 .hasstickyfooter .btn-footer-popover {
-  bottom: calc(1rem + max(80px, 0.9375rem * 3));
+  bottom: calc(1rem + max(96px, 0.9375rem * 3));
 }
 
 .hasstickyfooter .btn-footer-communication {
-  bottom: calc(4rem + max(80px, 0.9375rem * 3));
+  bottom: calc(4rem + max(96px, 0.9375rem * 3));
 }
 
 .popover.footer .popover-body {
@@ -35774,7 +35774,7 @@ p.arrow_button {
   border-right: transparent;
 }
 .path-grade-report-grader.hasstickyfooter .gradeparent tr.lastrow {
-  bottom: calc(max(80px, 0.9375rem * 3) - 1px);
+  bottom: calc(max(96px, 0.9375rem * 3) - 1px);
 }
 
 /**
@@ -36127,8 +36127,8 @@ body {
   position: fixed;
   right: 0;
   left: 0;
-  height: max(80px, 0.9375rem * 3);
-  bottom: calc(max(80px, 0.9375rem * 3) * -1);
+  height: max(96px, 0.9375rem * 3);
+  bottom: calc(max(96px, 0.9375rem * 3) * -1);
   transition: bottom 0.5s;
   z-index: 1030;
   overflow: hidden;
@@ -36948,7 +36948,7 @@ span[data-flexitour=container][x-placement=right] div[data-role=arrow]:after, sp
   .hasstickyfooter .drawer-left,
   .hasstickyfooter .drawer-right {
     top: 50px;
-    height: calc(100vh - 50px - max(80px, 0.9375rem * 3));
+    height: calc(100vh - 50px - max(96px, 0.9375rem * 3));
   }
   #page.drawers {
     position: relative;
@@ -36988,7 +36988,7 @@ span[data-flexitour=container][x-placement=right] div[data-role=arrow]:after, sp
 }
 @media (min-width: 992px) {
   #page.drawers.hasstickyfooter {
-    margin-bottom: max(80px, 0.9375rem * 3);
+    margin-bottom: max(96px, 0.9375rem * 3);
   }
 }
 .drawercontrolbuttons {
@@ -39111,5 +39111,5 @@ body {
 }
 
 body.hasstickyfooter #page-footer {
-  padding-bottom: calc(1rem * .5 + max(80px, 0.9375rem * 3));
+  padding-bottom: calc(1rem * .5 + max(96px, 0.9375rem * 3));
 }
