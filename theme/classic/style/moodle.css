@@ -35134,6 +35134,10 @@ table .sticky-column {
   font-size: 3rem;
 }
 
+.table-dynamic {
+  overflow: auto;
+}
+
 .singlebutton {
   display: inline-block;
 }
